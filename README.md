@@ -8,11 +8,7 @@ Classification de radiographies pulmonaires (pneumonie, COVID-19, sain) via ResN
 
 ├── code.ipynb # Traitement de données + entraînement du modèle
 
-├── best_model.pth # Contient le modèle entraîné 
-
 ├── data/ # Quelques données de test
-
-├── Rapport.pdf # Rapport sur le projet
 
 └── README.pdf # Ce fichier
 ## Utilisation
@@ -37,11 +33,8 @@ Si vous souhaitez consulter les performances du modèle (matrice de confusion,
 cross-validation, classification report, accuracy sur les tests), ouvrez le notebook 
 evaluation.ipynb.
 
-###  Ne pas relancer l’entrainement
+###  Implementation et entrainement
 Le fichier code.ipynb continent : 
 - Le code de traitement des données
 - L’entrainement du modèle
 
-!!! Ce notebook n'est pas conçu pour être relancé systématiquement. Il est long et 
-nécessite beaucoup de ressources.
-Servez-vous-en uniquement comme référence pour comprendre l’implémentation
