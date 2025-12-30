@@ -8,8 +8,6 @@ Classification de radiographies pulmonaires (pneumonie, COVID-19, sain) via ResN
 
 ├── code.ipynb # Traitement de données + entraînement du modèle
 
-├── data/ # Quelques données de test
-
 └── README.pdf # Ce fichier
 ## Utilisation
 ### Tester le modèle avec une image
